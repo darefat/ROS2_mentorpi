@@ -1,0 +1,3 @@
+[console_scripts]
+hello_world = hello_world_demo.hello_world:main
+

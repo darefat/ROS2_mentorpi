@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/hello_world_demo/hello_world_demo.egg-info/PKG-INFO
+writing dependency_links to ../../build/hello_world_demo/hello_world_demo.egg-info/dependency_links.txt
+writing entry points to ../../build/hello_world_demo/hello_world_demo.egg-info/entry_points.txt
+writing requirements to ../../build/hello_world_demo/hello_world_demo.egg-info/requires.txt
+writing top-level names to ../../build/hello_world_demo/hello_world_demo.egg-info/top_level.txt
+reading manifest file '../../build/hello_world_demo/hello_world_demo.egg-info/SOURCES.txt'
+writing manifest file '../../build/hello_world_demo/hello_world_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+copying hello_world_demo/hello_world.py -> /home/ubuntu/hiwonder_ws/build/hello_world_demo/build/lib/hello_world_demo
+running install
+running install_lib
+copying /home/ubuntu/hiwonder_ws/build/hello_world_demo/build/lib/hello_world_demo/hello_world.py -> /home/ubuntu/hiwonder_ws/install/hello_world_demo/lib/python3.10/site-packages/hello_world_demo
+byte-compiling /home/ubuntu/hiwonder_ws/install/hello_world_demo/lib/python3.10/site-packages/hello_world_demo/hello_world.py to hello_world.cpython-310.pyc
+  File "/home/ubuntu/hiwonder_ws/install/hello_world_demo/lib/python3.10/site-packages/hello_world_demo/hello_world.py", line 8
+    def_init_(self):
+running install_data
+                   ^
+SyntaxError: invalid syntax
+
+running install_egg_info
+removing '/home/ubuntu/hiwonder_ws/install/hello_world_demo/lib/python3.10/site-packages/hello_world_demo-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/hello_world_demo/hello_world_demo.egg-info to /home/ubuntu/hiwonder_ws/install/hello_world_demo/lib/python3.10/site-packages/hello_world_demo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing hello_world script to /home/ubuntu/hiwonder_ws/install/hello_world_demo/lib/hello_world_demo
+writing list of installed files to '/home/ubuntu/hiwonder_ws/build/hello_world_demo/install.log'

@@ -1,0 +1,5 @@
+  File "/home/ubuntu/hiwonder_ws/install/hello_world_demo/lib/python3.10/site-packages/hello_world_demo/hello_world.py", line 8
+    def_init_(self):
+                   ^
+SyntaxError: invalid syntax
+
